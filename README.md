@@ -1,5 +1,5 @@
 # OperationBreadbox
-A public, open source method for using python to interact with multiple Google Sheets documents.
+A public, open source method for using python to generate HTML that interacts with multiple Google Sheets documents.
 
 8/3: A group conversation of various people (please add or expand on your name here if you were in that chat: QA, C, B, J, G, O, K, L) launched the idea of Operation Boxcar, a way of combining multiple google sheets onto simple HTML documents that can be shared to make sharing resource lists during disasters easier.
 
