@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inventory Catalog</title>
+</head>
+<body>
+    <h1>Inventory Catalog</h1>
+    <form method="post">
+        <label for="search_term">Search Term:</label>
+        <input type="text" name="search_term" id="search_term">
+        <label for="available_only">Available:</label>
+        <input type="checkbox" name="available_only" id="available_only">
+        <label for="category">Category:</label>
+        <select name="category" id="category">
+            <option value="">All</option>
+            <option value="category1">GPS Coordinates</option>
+            <option value="category2">W3W words</option>
+            <!-- Add more categories here -->
+        </select>
+        <input type="submit" value="Search">
+    </form>
+
+    <br>
+
+    {{ dropdown_html | safe }}
+</body>
+</html>
+
